@@ -1,0 +1,14 @@
+﻿# Keep only small sample data, never raw extracts
+data/raw/
+**/data/*.csv
+!**/data/sample_*.csv
+
+# Never commit credentials
+*.token
+secrets.*
+
+# Power BI / OS noise
+~$*
+*.tmp
+.DS_Store
+Thumbs.db
