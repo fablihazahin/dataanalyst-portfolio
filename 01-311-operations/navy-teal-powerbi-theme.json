@@ -1,0 +1,60 @@
+{
+  "name": "Navy Teal — Fabliha",
+  "dataColors": [
+    "#2DD4BF",
+    "#0EA5E9",
+    "#5EEAD4",
+    "#1E40AF",
+    "#22D3EE",
+    "#0E7490",
+    "#F59E0B",
+    "#94A3B8"
+  ],
+  "foreground": "#E5EEF5",
+  "foregroundNeutralSecondary": "#B6C6D6",
+  "foregroundNeutralTertiary": "#7E93A6",
+  "background": "#0A1A2F",
+  "backgroundLight": "#13294B",
+  "backgroundNeutral": "#1C3A5E",
+  "tableAccent": "#2DD4BF",
+  "good": "#34D399",
+  "neutral": "#FBBF24",
+  "bad": "#F87171",
+  "maximum": "#2DD4BF",
+  "center": "#38BDF8",
+  "minimum": "#1E3A8A",
+  "null": "#475569",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          { "color": { "solid": { "color": "#0F2440" } }, "transparency": 0, "show": true }
+        ],
+        "border": [
+          { "color": { "solid": { "color": "#1C3A5E" } }, "show": true, "radius": 6 }
+        ],
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#E5EEF5" } },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold",
+            "alignment": "left"
+          }
+        ],
+        "labels": [
+          { "color": { "solid": { "color": "#B6C6D6" } }, "fontSize": 9 }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          { "color": { "solid": { "color": "#2DD4BF" } }, "fontSize": 28, "fontFamily": "Segoe UI Semibold" }
+        ],
+        "categoryLabels": [
+          { "color": { "solid": { "color": "#B6C6D6" } }, "fontSize": 11 }
+        ]
+      }
+    }
+  }
+}
